@@ -1,0 +1,62 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">WARNING</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Kurtulus\.nuget\packages\specflow\3.9.22\lib\netstandard2.0\TechTalk.SpecFlow.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Kurtulus\.nuget\packages\fluentassertions\6.2.0\lib\netcoreapp3.0\FluentAssertions.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=29892ba2_002D1cec_002D4997_002Dbcee_002D757d4e1ae70f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Landing To Login Page" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ProductFeature.LandingToProductsPage&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature.GetUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature.GetUnknownUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature.CreateAUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature.GetInsertedUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature.UpdateAUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature.DeleteAUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.LoginFeature.LoginWithCorrectUsernameWrongPassword&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.SmokeFeature.VisitProductPage&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.SmokeFeature.VisitAboutPage&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.SmokeFeature.VisitBasketPage&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.E2EFeature.AddBasketAndControl&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ProductFeature.AddTwoProducts&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.E2EFeature.AddBasketAndControl1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.E2EFeature.AddBasketAndDeleteFromBasket&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.E2EFeature.AddBasketAndResetAppStatus&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.E2EFeature.BuyProduct&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.ApiWithGherkinFeature&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.E2EFeature&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B674F0B4-A873-402F-AC8A-853ABB9AEB36::net6.0::SpecFlowAutomation.Specs.Features.LoginFeature&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;B674F0B4-A873-402F-AC8A-853ABB9AEB36/d:Features/f:Product.feature.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=AFRODIT/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Felixo/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Hmmss/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=PAGELOAD/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>
