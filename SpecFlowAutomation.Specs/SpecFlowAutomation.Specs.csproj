@@ -1,0 +1,156 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <IsPackable>false</IsPackable>
+        <ImplicitUsings>disable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Using Include="TechTalk.SpecFlow" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+        <PackageReference Include="EPPlus" Version="6.0.4" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+        <PackageReference Include="RestSharp" Version="108.0.0" />
+        <PackageReference Include="Selenium.Support" Version="4.1.0" />
+        <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+        <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="104.0.5112.7900" />
+        <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.30.0" />
+        <PackageReference Include="SpecFlow" Version="3.9.74" />
+        <PackageReference Include="SpecFlow.ExternalData" Version="3.9.74" />
+        <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.74" />
+        <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+        <PackageReference Include="SpecFlow.xUnit" Version="3.9.74" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+        <PackageReference Include="xRetry" Version="1.8.0" />
+        <PackageReference Include="xRetry.SpecFlow" Version="1.8.0" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="FluentAssertions" Version="6.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="../xunit.runner.json" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Old_Features\FelixoAccount.feature.cs">
+        <DependentUpon>FelixoAccount.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoAirdrop.feature.cs">
+        <DependentUpon>FelixoAirdrop.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoApiBeta.feature.cs">
+        <DependentUpon>FelixoApiBeta.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoEndToEnd.feature.cs">
+        <DependentUpon>FelixoEndToEnd.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoExchange.feature.cs">
+        <DependentUpon>FelixoExchange.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoFunds.feature.cs">
+        <DependentUpon>FelixoFunds.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoLending.feature.cs">
+        <DependentUpon>FelixoLending.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoLogin.feature.cs">
+        <DependentUpon>FelixoLogin.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoOrders.feature.cs">
+        <DependentUpon>FelixoOrders.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoRegister.feature.cs">
+        <DependentUpon>FelixoRegister.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoSmoke.feature.cs">
+        <DependentUpon>FelixoSmoke.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoStaticPages.feature.cs">
+        <DependentUpon>FelixoStaticPages.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+      <Compile Update="Old_Features\FelixoV2Poc.feature.cs">
+        <DependentUpon>FelixoV2Poc.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Features_Old\FelixoAccount.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoAirdrop.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoApiBeta.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoEndToEnd.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoExchange.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoFunds.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoLending.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoLogin.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoOrders.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoRegister.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoSmoke.feature" />
+      <UpToDateCheckInput Remove="Features_Old\FelixoStaticPages.feature" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckBuild Remove="Features_Old\FelixoAccount.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoAirdrop.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoApiBeta.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoEndToEnd.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoExchange.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoFunds.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoLending.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoLogin.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoOrders.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoRegister.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoSmoke.feature.cs" />
+      <UpToDateCheckBuild Remove="Features_Old\FelixoStaticPages.feature.cs" />
+    </ItemGroup>
+
+</Project>
