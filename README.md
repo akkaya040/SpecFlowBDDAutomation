@@ -56,3 +56,24 @@ This project is developed using C# with .NET6.0 with XUnit as the automation & a
 
 * **Verify product filter selections is worked(E2E.feature).**
 
+
+
+# Running Test Suites
+
+
+```java
+
+dotnet test
+
+dotnet test --logger "trx;LogFileName=./Report/mytests.trx" -xml /Report/mytests.xml
+
+```
+
+How to generate report ?
+
+```java
+
+livingdoc test-assembly "$TestAssemblyPath" --binding-assemblies "$TestAssemblyPath" --output-type HTML --output "$LivingDocDir\PLAppLivingDoc.html"
+
+```
+
